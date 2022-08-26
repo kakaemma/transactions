@@ -13,10 +13,12 @@
 
 ## API Resources
 | HTTP METHOD | ENDPOINT | DESCRIPTION |
-| :---: | :---: | :---: |
-| POST | /transactions | add a transaction
-| GET | /transactions | get all transactions
-| GET | /transactions/<:id>| get a particular transaction
+|:-----------:| :---: | :---: |
+|    POST     | /transactions | add a transaction
+|     GET     | /transactions | get all transactions
+|     GET     | /transactions/<:id>| get a particular transaction
+|     PUT     | /transactions/<:id>| edit a particular transaction
+
 
 
 ## Payload for POST
