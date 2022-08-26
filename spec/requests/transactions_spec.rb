@@ -49,7 +49,6 @@ RSpec.describe TransactionsController, type: :request do
       it 'should update the transaction' do
         expect(response.body).not_to be_empty
       end
-
     end
   end
 
